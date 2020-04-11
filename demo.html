@@ -1,0 +1,31 @@
+<!-- pasing event object 
+<html>
+    <head>
+        <script>
+            function fundet(event){
+              alert(event.target.id);
+                        }
+        </script>
+    </head>
+    <body>
+        <input type="button" value="submit" onclick="fundet(event)" id="btn">
+
+    </body>
+</html>
+
+add events dynamically
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="button" id="btn" value="submit">
+        <script>
+            var btnref=document.getElementById('btn');
+            btnref.addEventListener('mouseover',function(e){
+               alert('hello...!')
+            })
+        </script>
+    </body>
+</html>-->
+
